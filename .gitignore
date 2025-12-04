@@ -1,3 +1,9 @@
+# Environment files (templates are explicitly allowed)
+.env
+.env.*
+*.env
+!.env.example
+
 # Miscellaneous
 *.class
 *.log
@@ -41,3 +47,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# FVM Version Cache
+.fvm/

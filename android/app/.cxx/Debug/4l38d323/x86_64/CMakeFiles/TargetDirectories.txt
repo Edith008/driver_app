@@ -1,0 +1,2 @@
+C:/Archivos/Universidad/2025 - 02/IHC/driver_app/android/app/.cxx/Debug/4l38d323/x86_64/CMakeFiles/edit_cache.dir
+C:/Archivos/Universidad/2025 - 02/IHC/driver_app/android/app/.cxx/Debug/4l38d323/x86_64/CMakeFiles/rebuild_cache.dir

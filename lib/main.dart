@@ -1,22 +1,21 @@
+import 'package:driver_app/features/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
-import 'splash_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const DriverApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class DriverApp extends StatelessWidget {
+  const DriverApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Driver App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-  
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF126ABC)),
+        scaffoldBackgroundColor: Colors.white,
         useMaterial3: true,
       ),
       home: const SplashScreen(),
